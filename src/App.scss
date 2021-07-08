@@ -1,0 +1,8 @@
+.main {
+  position: fixed;
+  right: 0;
+  top: var(--top-padding);
+
+  width: calc(100vw - var(--left-padding) - var(--navbar-width));
+  height: calc(100vh - var(--top-padding));
+}

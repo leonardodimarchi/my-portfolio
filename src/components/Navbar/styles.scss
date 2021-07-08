@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  position: fixed;
+  top: 0;
+  left: var(--left-padding);
+  z-index: 10;
+
+  height: var(--navbar-height);
+  width: var(--navbar-width);
+
+
+  background: var(--color-gray);
+
+  border-radius: 0 0 5rem 5rem;
+
+  &--item {
+    padding: 0.5rem;
+    
+    border-radius: 1.2rem;
+    transition: box-shadow 1s;
+    
+    img {
+      width: 3rem;
+      height: auto;
+      color: var(--color-white);
+    }
+    
+    &:hover {
+      box-shadow: 0 0.6rem 1rem 0 var(--color-gray-dark); 
+    }
+  }
+  
+  &--item__active {
+    box-shadow: 0 0.2rem 1rem;
+  }
+}
