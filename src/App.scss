@@ -1,4 +1,7 @@
 .main {
+  display: flex;
+  justify-content: center;
+  
   position: fixed;
   right: 0;
   top: var(--top-padding);
