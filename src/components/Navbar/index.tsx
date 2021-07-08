@@ -1,10 +1,10 @@
 import { ReactElement } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import mapIcon from '../../assets/imgs/map.svg';
 import personIcon from '../../assets/imgs/person-outline.svg';
 import './styles.scss';
 
-export default function Navbar(): ReactElement | null {
+export function Navbar(): ReactElement {
   return (
     <div className="navbar">
         <Link to={ '/about' }>

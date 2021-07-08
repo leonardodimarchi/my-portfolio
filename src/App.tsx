@@ -1,8 +1,9 @@
 import { StrictMode } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Navbar } from './components/Navbar';
 
 import './App.scss';
-import Navbar from './components/Navbar';
+import { AboutPage } from './pages/About';
 
 function App() {
   return (
@@ -15,10 +16,10 @@ function App() {
 
           <Switch>
             <Route path={ '/' } exact>
-              <h1> About </h1>
+              <AboutPage />
             </Route>
             <Route path={ '/about' }>
-              <h1> About </h1>
+              <AboutPage />
             </Route>
             <Route path={ '/trajectory' }>
               <h1> Trajectory </h1>
