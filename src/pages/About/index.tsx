@@ -11,8 +11,8 @@ export function AboutPage(): ReactElement {
       <div className='about--body'>
         <section>
           <h1> About me </h1>
-          <p> At the moment, I'm a Computer Engineering student at Facens, 
-            right where the LIGA (Games and Apps Innovation Laboratory) resides, 
+          <p> At the moment, I'm a Computer Engineering student at <a href={'https://www.facens.br/'}>Facens</a>, 
+            right where <a href={'https://liga.facens.br/'}>LIGA</a> (Games and Apps Innovation Laboratory) resides, 
             which is the place where I'm at a internship. </p>
         </section>
       </div>

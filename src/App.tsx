@@ -9,11 +9,9 @@ function App() {
   return (
     <StrictMode>
       <Router>
-
         <Navbar/>
 
         <main className="main">
-
           <Switch>
             <Route path={ '/' } exact>
               <AboutPage />
