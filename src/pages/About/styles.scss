@@ -25,23 +25,32 @@
   &--body {
     margin-top: 5rem;
     
-    h1 {
-      font-size: 3rem;
-      font-weight: 700;
+    section {
+      margin-bottom: 3rem;
       
-      margin-bottom: 2rem;
-    }
-    
-    p {
-      font-size: 2rem;
-      font-weight: 400;
-      
-      text-align: justify;
-      
-      a {
+      h1 {
+        font-size: 3rem;
         font-weight: 700;
-        color: white;
+
+        margin-bottom: 2rem;
+      }
+
+      p, li {
+        font-size: 2rem;
+        font-weight: 400;
+
+        text-align: justify;
+
+        a {
+          font-weight: 700;
+          color: white;
+        }
+      }  
+      
+      ul {
+        padding-left: 2rem;
       }
     }
+    
   }
 }
