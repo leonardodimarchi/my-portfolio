@@ -12,7 +12,7 @@ export function Navbar(): ReactElement {
             <img src={ personIcon } alt="Sobre"/>
           </div>
         </Link>
-        <Link to={ '/trajectory' }>
+        <Link to={ '/experiences' }>
           <div className="navbar--item">
             <img src={ mapIcon } alt="Sobre"/>
           </div>

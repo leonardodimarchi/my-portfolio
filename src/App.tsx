@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 
 import './App.scss';
 import { AboutPage } from './pages/About';
+import { ExperiencesPage } from './pages/Experiences';
 
 function App() {
   return (
@@ -19,8 +20,11 @@ function App() {
             <Route path={ '/about' }>
               <AboutPage />
             </Route>
-            <Route path={ '/trajectory' }>
-              <h1> Trajectory </h1>
+            <Route path={ '/experiences' }>
+              <ExperiencesPage />
+            </Route>
+            <Route path={'**'}>
+              <AboutPage />
             </Route>
           </Switch>
 
