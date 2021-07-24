@@ -26,7 +26,11 @@ code {
 
   --left-padding: 25rem;
   --top-padding: 6rem;
-  
+
+  @media(max-width: 1060px) {
+    --left-padding: 10rem;
+  }
+
   --navbar-height: 15rem;
   --navbar-width: 6rem;
 }
