@@ -21,11 +21,18 @@
       font-weight: bold;
     }
   }
-  
+
   &--body {
-    margin-top: 5rem;
-    
+    margin-top: 2rem;
+
     width: 100%;
+
+    &--card {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+
+      border-bottom: solid var(--color-gray) 1px;
+    }
   }
 }
 

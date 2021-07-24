@@ -12,13 +12,18 @@ export function ExperiencesPage(): ReactElement {
       </div>
 
       <div className="experiences--body">
-        <JobCard
-          icon={<IdcardOutlined />}
-          title='LIGA'
-          initialDate='21/02/2021'
-          finalDate='22/03/2025'
-          description='Essa é a descrição'
-          skills={['primeiro','segundo']} />
+        <div className="experiences--body--card">
+          <JobCard
+            icon={<IdcardOutlined />}
+            title='LIGA - Facens'
+            initialDate='08/04/2021'
+            finalDate='Current'
+            description='Getting some experiences with Angular2+,
+            Ionic and some others libraries at the frontend,
+            along with API development with NestJS framework at the backend.'
+            skills={['Typescript','Angular']} />
+        </div>
+
       </div>
     </div>
   )
