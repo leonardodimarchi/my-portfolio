@@ -18,10 +18,10 @@ export function ExperiencesPage(): ReactElement {
             title='LIGA - Facens'
             initialDate='08/04/2021'
             finalDate='Current'
-            description='Getting some experiences with Angular2+,
-            Ionic and some others libraries at the frontend,
+            description='Getting some experiences with Angular2+
+            and some libraries at the frontend,
             along with API development with NestJS framework at the backend.'
-            skills={['Typescript','Angular']} />
+            skills={['Typescript','Angular','NestJS']} />
         </div>
 
       </div>
