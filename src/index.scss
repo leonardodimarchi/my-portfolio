@@ -20,6 +20,7 @@ code {
   font-size: 10px;
   color: white;
 
+  --color-gray-light: #3d4752;
   --color-gray: #222830;
   --color-gray-dark: #13171c;
   --color-white: #ffffff;
@@ -30,6 +31,11 @@ code {
   @media(max-width: 1060px) {
     --left-padding: 10rem;
   }
+
+  @media(max-width: 580px) {
+    --left-padding: 2rem;
+  }
+
 
   --navbar-height: 15rem;
   --navbar-width: 6rem;

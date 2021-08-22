@@ -8,18 +8,18 @@ export function AboutPage(): ReactElement {
       <div className='about--header'>
         <h1> Leonardo Dimarchi </h1>
       </div>
-      
+
       <div className='about--body'>
         <section>
           <h1> <span><IdcardOutlined /></span> About me </h1>
-          <p> At the moment, I'm a Computer Engineering student at <a href={'https://www.facens.br/'}>Facens</a>, 
-            right where <a href={'https://liga.facens.br/'}>LIGA</a> (Games and Apps Innovation Laboratory) resides, 
-            which is the place where I'm at a internship. </p>
+          <p> At the moment, I'm a Computer Engineering student at <a href={'https://www.facens.br/'}>Facens</a>,
+            right where <a href={'https://liga.facens.br/'}>LIGA</a> (Games and Apps Innovation Laboratory) resides,
+            which is the place where i'm currently working on. </p>
         </section>
 
         <section>
           <h1> <span> <NotificationOutlined /> </span>Languages </h1>
-          
+
           <ul>
             <li> Portuguese - Native Speaker </li>
             <li> English - Intermediate </li>

@@ -12,18 +12,18 @@ export function JobCard(props: JobCardProps): ReactElement {
   return (
     <div className="card">
       <div className="card--header">
-        <div className="card--header--icon">
-          {props.icon}
-        </div>
+        <div className="card--header--start">
+          <div className="card--header--start--icon">
+            {props.icon}
+          </div>
 
-        <div className="card--header--texts">
-          <div className="card--header--texts--title">
+          <div className="card--header--start--title">
             {props.title}
           </div>
+        </div>
 
-          <div className="card--header--texts--date">
-            {props.initialDate} ~ {props.finalDate}
-          </div>
+        <div className="card--header--date">
+          {props.initialDate} ~ {props.finalDate}
         </div>
       </div>
 
